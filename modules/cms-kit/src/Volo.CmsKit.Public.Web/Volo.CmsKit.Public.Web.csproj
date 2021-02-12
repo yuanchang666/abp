@@ -15,6 +15,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Volo.CmsKit.Common.Web\Volo.CmsKit.Common.Web.csproj" />
     <ProjectReference Include="..\Volo.CmsKit.Public.HttpApi\Volo.CmsKit.Public.HttpApi.csproj" />
+    <ProjectReference Include="..\..\..\..\framework\src\Volo.Abp.BackgroundWorkers\Volo.Abp.BackgroundWorkers.csproj" />
     <PackageReference Include="Microsoft.Extensions.FileProviders.Embedded" Version="$(MicrosoftPackageVersion)" />
   </ItemGroup>
 
